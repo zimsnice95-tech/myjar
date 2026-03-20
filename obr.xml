@@ -1,0 +1,23 @@
+<repository lastmodified='20260115041943.933'>
+  <resource id='com.k15t.scroll.documents-translations-server/3.35.1' symbolicname='com.k15t.scroll.documents-translations-server' presentationname='Scroll Documents Translations Server' uri='scroll-documents-translations-server-3.35.1.jar' version='3.35.1'>
+    <description>Translate your Scroll Documents into other languages.</description>
+    <size>17258</size>
+    <documentation>https://www.k15t.com/</documentation>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.k15t.scroll.documents-translations-server'/>
+      <p n='presentationname' v='Scroll Documents Translations Server'/>
+      <p n='version' t='version' v='3.35.1'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=com.atlassian.confluence.core))' extend='false' multiple='false' optional='false'>Import package com.atlassian.confluence.core</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.spring.scanner.annotation.imports))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.spring.scanner.annotation.imports</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.upm.api.license))' extend='false' multiple='false' optional='false'>Import package com.atlassian.upm.api.license</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.upm.api.license.entity))' extend='false' multiple='false' optional='false'>Import package com.atlassian.upm.api.license.entity</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.upm.api.util))' extend='false' multiple='false' optional='false'>Import package com.atlassian.upm.api.util</require>
+    <require name='package' filter='(&amp;(package=java.lang))' extend='false' multiple='false' optional='false'>Import package java.lang</require>
+    <require name='package' filter='(&amp;(package=java.util))' extend='false' multiple='false' optional='false'>Import package java.util</require>
+    <require name='package' filter='(&amp;(package=java.util.function))' extend='false' multiple='false' optional='false'>Import package java.util.function</require>
+    <require name='package' filter='(&amp;(package=org.springframework.beans.factory.annotation))' extend='false' multiple='false' optional='false'>Import package org.springframework.beans.factory.annotation</require>
+    <require name='package' filter='(&amp;(package=com.atlassian.plugin.osgi.bridge.external))' extend='false' multiple='false' optional='false'>Import package com.atlassian.plugin.osgi.bridge.external</require>
+  </resource>
+</repository>
